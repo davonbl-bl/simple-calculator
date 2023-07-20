@@ -20,34 +20,34 @@
     </div>
     <div class = 'calculator__section calculator__part-one'>
         <div class = 'calculator__buttons calculator__part-one--buttons'>
-            <button id="btnNum7" class = 'calculator__btn' value= '7'>7</button>
-            <button id="btnNum8" class = 'calculator__btn' value= "8">8</button>
-            <button id="btnNum9" class = 'calculator__btn' value= "9">9</button>
-            <button id="btnNum/" class = 'calculator__btn' value= '/'>/</button>
+            <button id="btnNum7" class = 'calculator__btn' onclick= 'selectBtn(7)' value = 7>7</button>
+            <button id="btnNum8" class = 'calculator__btn' onclick= 'selectBtn(8)'>8</button>
+            <button id="btnNum9" class = 'calculator__btn' onclick= 'selectBtn(9)'>9</button>
+            <button id="btnNum/" class = 'calculator__btn' onclick= "selectBtn('/')">/</button>
         </div>
     </div>
     <div class = 'calculator__section calculator__part-two'>
         <div class = 'calculator__buttons calculator__part-two--buttons'>
-            <button id="btnNum4" class = 'calculator__btn' value = '4'>4</button>
-            <button id="btnNum5" class = 'calculator__btn' value = '5'>5</button>
-            <button id="btnNum6" class = 'calculator__btn' value = '6'>6</button>
-            <button id="btnNumX" class = 'calculator__btn' value=  "/">x</button>
+            <button id="btnNum4" class = 'calculator__btn' onclick = 'selectBtn(4)'>4</button>
+            <button id="btnNum5" class = 'calculator__btn' onclick = 'selectBtn(5)'>5</button>
+            <button id="btnNum6" class = 'calculator__btn' onclick = 'selectBtn(6)'>6</button>
+            <button id="btnNumX" class = 'calculator__btn' onclick = 'selectBtn("*")'>x</button>
         </div>
     </div>
     <div class = 'calculator__section calculator__part-three'>
         <div class = 'calculator__buttons calculator__part-three--buttons'>
-            <button id="btnNum1" class = 'calculator__btn' value = '1'>1</button>
-            <button id="btnNum2" class = 'calculator__btn' value = '2'>2</button>
-            <button id="btnNum3" class = 'calculator__btn' value = '3'>3</button>
-            <button id="btnNum+" class = 'calculator__btn' value = '+'>+</button>
+            <button id="btnNum1" class = 'calculator__btn' onclick= 'selectBtn("1")'>1</button>
+            <button id="btnNum2" class = 'calculator__btn' onclick= 'selectBtn("2")'>2</button>
+            <button id="btnNum3" class = 'calculator__btn' onclick= 'selectBtn("3")'>3</button>
+            <button id="btnNum+" class = 'calculator__btn' onclick= 'selectBtn("+")'>+</button>
         </div>
     </div>
     <div class = 'calculator__section calculator__part-four--buttons '>
         <div class = 'calculator__buttons calculator__part-three--buttons'>
-            <button id="btnNum0" class = 'calculator__btn'>0</button>
-            <button id="btnNum." class = 'calculator__btn'>.</button>
-            <button id="btnNum=" class = 'calculator__btn'>=</button>
-            <button id="btnNum-" class = 'calculator__btn'>-</button>
+            <button id="btnNum0" class = 'calculator__btn' onclick="selectBtn('0')">0</button>
+            <button id="btnNum." class = 'calculator__btn' onclick="selectBtn('.')">.</button>
+            <button id="btnNum=" class = 'calculator__btn' onclick="selectBtn('=')">=</button>
+            <button id="btnNum-" class = 'calculator__btn' onclick="selectBtn('-')">-</button>
         </div>
     </div>
 </div>
